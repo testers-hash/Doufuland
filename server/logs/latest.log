@@ -1,5 +1,615 @@
-[04:28:38] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[04:28:38] [Server thread/INFO]: Loading properties
-[04:28:38] [Server thread/WARN]: Failed to load eula.txt
-[04:28:38] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[04:28:38] [Server thread/INFO]: Stopping server
+[02:50:51] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[02:50:51] [Server thread/INFO]: Loading properties
+[02:50:51] [Server thread/INFO]: Default game type: SURVIVAL
+[02:50:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[02:50:51] [Server thread/INFO]: Debug logging is disabled
+[02:50:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[02:50:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[02:50:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:50:51] [Server thread/INFO]: Data value allowed items: 
+[02:50:51] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[02:50:51] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[02:50:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[02:50:51] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[02:50:51] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[02:50:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[02:50:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[02:50:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[02:50:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[02:50:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[02:50:51] [Server thread/INFO]: Generating keypair
+[02:50:52] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[02:50:52] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[02:50:52] [Server thread/INFO]: Using default channel type
+[02:50:53] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:50:53] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[02:50:53] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[02:50:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[02:50:53] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[02:50:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:50:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:50:53] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[02:50:53] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[02:50:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:50:53] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:50:53] [Server thread/INFO]: Preparing level "world"
+[02:50:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:50:53] [Server thread/INFO]: Mob Spawn Range: 4
+[02:50:53] [Server thread/INFO]: Anti X-Ray: true
+[02:50:53] [Server thread/INFO]: 	Engine Mode: 1
+[02:50:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:50:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:50:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:50:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:50:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:50:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:50:53] [Server thread/INFO]: Random Lighting Updates: false
+[02:50:53] [Server thread/INFO]: Structure Info Saving: true
+[02:50:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:50:53] [Server thread/INFO]: Max Entity Collisions: 8
+[02:50:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:50:53] [Server thread/INFO]: Max TNT Explosions: 100
+[02:50:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:50:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:50:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:50:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:50:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:50:53] [Server thread/INFO]: View Distance: 4
+[02:50:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:50:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:50:53] [Server thread/INFO]: Clear tick list: false
+[02:50:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:50:53] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:50:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[02:50:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[02:50:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[02:50:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[02:50:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[02:50:53] [Server thread/INFO]: Water over lava flow speed: 5
+[02:50:53] [Server thread/INFO]: Fix TNT cannons: false
+[02:50:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[02:50:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[02:50:53] [Server thread/INFO]: World async lighting: false
+[02:50:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[02:50:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[02:50:53] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:50:53] [Server thread/INFO]: Mob Spawn Range: 4
+[02:50:53] [Server thread/INFO]: Anti X-Ray: true
+[02:50:53] [Server thread/INFO]: 	Engine Mode: 1
+[02:50:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:50:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:50:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:50:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:50:53] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:50:53] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:50:53] [Server thread/INFO]: Random Lighting Updates: false
+[02:50:53] [Server thread/INFO]: Structure Info Saving: true
+[02:50:53] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:50:53] [Server thread/INFO]: Max Entity Collisions: 8
+[02:50:53] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:50:53] [Server thread/INFO]: Max TNT Explosions: 100
+[02:50:53] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:50:53] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:50:53] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:50:53] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:50:53] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:50:53] [Server thread/INFO]: View Distance: 4
+[02:50:53] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:50:53] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:50:53] [Server thread/INFO]: Clear tick list: false
+[02:50:53] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:50:53] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:50:53] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[02:50:53] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[02:50:53] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[02:50:53] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[02:50:53] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[02:50:53] [Server thread/INFO]: Water over lava flow speed: 5
+[02:50:53] [Server thread/INFO]: Fix TNT cannons: false
+[02:50:53] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[02:50:53] [Server thread/INFO]: Keep spawn chunk loaded: true
+[02:50:53] [Server thread/INFO]: World async lighting: false
+[02:50:53] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[02:50:53] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[02:50:53] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:50:53] [Server thread/INFO]: Mob Spawn Range: 4
+[02:50:53] [Server thread/INFO]: Anti X-Ray: true
+[02:50:53] [Server thread/INFO]: 	Engine Mode: 1
+[02:50:53] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[02:50:53] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[02:50:53] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:50:53] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:50:53] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:50:54] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[02:50:54] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:50:54] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[02:50:54] [Server thread/INFO]: Random Lighting Updates: false
+[02:50:54] [Server thread/INFO]: Structure Info Saving: true
+[02:50:54] [Server thread/INFO]: Sending up to 10 chunks per packet
+[02:50:54] [Server thread/INFO]: Max Entity Collisions: 8
+[02:50:54] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[02:50:54] [Server thread/INFO]: Max TNT Explosions: 100
+[02:50:54] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:50:54] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:50:54] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:50:54] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:50:54] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:50:54] [Server thread/INFO]: View Distance: 4
+[02:50:54] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:50:54] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[02:50:54] [Server thread/INFO]: Clear tick list: false
+[02:50:54] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:50:54] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:50:54] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[02:50:54] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[02:50:54] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[02:50:54] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[02:50:54] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[02:50:54] [Server thread/INFO]: Water over lava flow speed: 5
+[02:50:54] [Server thread/INFO]: Fix TNT cannons: false
+[02:50:54] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[02:50:54] [Server thread/INFO]: Keep spawn chunk loaded: true
+[02:50:54] [Server thread/INFO]: World async lighting: false
+[02:50:54] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[02:50:54] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[02:50:54] [Server thread/INFO]: Preparing start region for level 0 (Seed: 9033471683787178231)
+[02:50:55] [Server thread/INFO]: Preparing spawn area: 4%
+[02:50:56] [Server thread/INFO]: Preparing spawn area: 19%
+[02:50:57] [Server thread/INFO]: Preparing spawn area: 35%
+[02:50:59] [Server thread/INFO]: Preparing spawn area: 50%
+[02:51:00] [Server thread/INFO]: Preparing spawn area: 97%
+[02:51:00] [Server thread/INFO]: Preparing start region for level 1 (Seed: 9033471683787178231)
+[02:51:01] [Server thread/INFO]: Preparing spawn area: 2%
+[02:51:02] [Server thread/INFO]: Preparing spawn area: 39%
+[02:51:03] [Server thread/INFO]: Preparing spawn area: 82%
+[02:51:03] [Server thread/INFO]: Preparing start region for level 2 (Seed: 9033471683787178231)
+[02:51:03] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[02:51:03] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[02:51:03] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[02:51:04] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:51:04] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[02:51:04] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[02:51:04] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:51:04] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[02:51:04] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[02:51:04] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[02:51:04] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[02:51:04] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[02:51:04] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[02:51:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:51:05] [Server thread/INFO]: Done (11.908s)! For help, type "help" or "?"
+[02:51:05] [Server thread/INFO]: Timings Reset
+[02:51:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[02:51:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[02:51:06] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[02:52:48] [Thread-7/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[02:52:49] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:43892] logged in with entity id 571 at ([world]980.3877178460447, 98.0, 852.2770901506085)
+[02:53:12] [Server thread/INFO]: Cool_Beans issued server command: /tp Cool_Beans -1816 100 2728
+[02:53:12] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -1815.5, 100.0, 2728.5]
+[02:53:31] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[02:53:31] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[02:53:53] [Server thread/INFO]: Cool_Beans issued server command: /time set day
+[02:53:53] [Server thread/INFO]: [Cool_Beans: Set the time to 1000]
+[02:56:12] [Server thread/INFO]: Cool_Beans issued server command: /sethome oceanmonument
+[02:56:41] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[02:56:41] [Server thread/INFO]: Cool_Beans left the game.
+[02:56:44] [Thread-9/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[02:56:44] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:35852] logged in with entity id 1239 at ([world]-1817.455771285546, 34.0, 2750.512499988079)
+[02:57:45] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[02:57:45] [Server thread/INFO]: Cool_Beans left the game.
+[02:58:24] [Thread-10/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[02:58:24] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:42170] logged in with entity id 1292 at ([world]-1811.1769808775205, 40.0, 2730.5755735095477)
+[03:01:04] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[03:03:35] [Server thread/INFO]: Cool_Beans lost connection: Timed out
+[03:03:35] [Server thread/INFO]: Cool_Beans left the game.
+[03:03:42] [Thread-11/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[03:03:42] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:56356] logged in with entity id 1628 at ([world]978.6558381004652, 106.0625, 867.514372507639)
+[03:04:05] [Server thread/INFO]: Cool_Beans issued server command: /home oceanmonument
+[03:05:50] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:05:50] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:06:36] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[03:06:36] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[03:12:40] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:12:40] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:13:23] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:13:23] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:13:31] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[03:13:31] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[03:18:42] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[03:18:48] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:18:48] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:20:21] [Server thread/INFO]: Cool_Beans fell from a high place
+[03:20:26] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[03:25:22] [Server thread/INFO]: Cool_Beans issued server command: /seed
+[03:26:55] [Server thread/INFO]: Cool_Beans issued server command: /tp Cool_Beans 848 64 352
+[03:26:55] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to 848.5, 64.0, 352.5]
+[03:26:59] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[03:26:59] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[03:30:39] [Server thread/INFO]: Cool_Beans issued server command: /time set day
+[03:30:39] [Server thread/INFO]: [Cool_Beans: Set the time to 1000]
+[03:30:42] [Server thread/INFO]: Cool_Beans issued server command: /fps
+[03:31:03] [Server thread/INFO]: Cool_Beans issued server command: /locate
+[03:31:10] [Server thread/INFO]: Cool_Beans issued server command: /village
+[03:34:09] [Server thread/INFO]: Cool_Beans lost connection: Timed out
+[03:34:09] [Server thread/INFO]: Cool_Beans left the game.
+[03:34:29] [Thread-13/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[03:34:29] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:53600] logged in with entity id 4841 at ([world]692.9102803927357, 95.50148384300356, 402.28840420135884)
+[03:35:45] [Server thread/INFO]: Cool_Beans lost connection: Timed out
+[03:35:45] [Server thread/INFO]: Cool_Beans left the game.
+[03:36:36] [Thread-14/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[03:36:36] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:54070] logged in with entity id 4929 at ([world]692.9102803927357, 79.38593144286034, 402.28840420135884)
+[03:36:59] [Server thread/INFO]: Cool_Beans issued server command: /tp Cool_Beans -1776 100 1632
+[03:36:59] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -1775.5, 100.0, 1632.5]
+[03:41:43] [Server thread/INFO]: Cool_Beans issued server command: /tp -880 100 2048
+[03:41:43] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -879.5, 100.0, 2048.5]
+[03:41:57] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:41:57] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:42:05] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:42:05] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:42:07] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[03:42:07] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[03:42:24] [Server thread/INFO]: Cool_Beans issued server command: /time set day
+[03:42:24] [Server thread/INFO]: [Cool_Beans: Set the time to 1000]
+[03:42:29] [Server thread/INFO]: Cool_Beans issued server command: /gamemdoe 0
+[03:42:47] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:42:47] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:45:21] [Server thread/INFO]: Cool_Beans issued server command: /tp -208 70 2416
+[03:45:21] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -207.5, 70.0, 2416.5]
+[03:45:26] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 1
+[03:45:26] [Server thread/INFO]: [Cool_Beans: Set own game mode to Creative Mode]
+[03:45:40] [Server thread/INFO]: Cool_Beans issued server command: /tp -208 100 2416
+[03:45:40] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -207.5, 100.0, 2416.5]
+[03:45:48] [Server thread/INFO]: Cool_Beans issued server command: /gamemode 0
+[03:45:48] [Server thread/INFO]: [Cool_Beans: Set own game mode to Survival Mode]
+[03:48:43] [Server thread/INFO]: Cool_Beans issued server command: /tp 32 100 2416
+[03:48:43] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to 32.5, 100.0, 2416.5]
+[03:48:46] [Server thread/INFO]: Cool_Beans fell from a high place
+[03:48:51] [Server thread/INFO]: Cool_Beans issued server command: /back
+[03:50:31] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[03:52:37] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[03:52:37] [Server thread/INFO]: Cool_Beans left the game.
+[04:20:59] [Thread-16/INFO]: UUID of player FartingBananaman is d28573f7-50ff-3cff-8e01-0f7a80c838ab
+[04:20:59] [Server thread/INFO]: FartingBananaman[/[0:0:0:0:0:0:0:1]:53518] logged in with entity id 7596 at ([world]989.5880113088211, 98.0, 854.752351859886)
+[04:21:26] [Thread-17/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[04:21:26] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:42660] logged in with entity id 7925 at ([world]976.3000000119209, 106.0625, 864.7090183426178)
+[04:21:47] [Async Chat Thread - #0/INFO]: <Cool_Beans> yo, i got so man desert templs[m
+
+[04:21:50] [Server thread/INFO]: FartingBananaman fell from a high place
+[04:21:54] [Server thread/INFO]: FartingBananaman issued server command: /ok
+[04:21:55] [Async Chat Thread - #0/INFO]: <Cool_Beans> and i raided the ocean mon[m
+
+[04:22:00] [Async Chat Thread - #0/INFO]: <Cool_Beans> i have 8 gold blocks[m
+
+[04:22:05] [Async Chat Thread - #0/INFO]: <FartingBananaman> did you find sponges[m
+
+[04:22:09] [Async Chat Thread - #0/INFO]: <Cool_Beans> yes[m
+
+[04:22:12] [Async Chat Thread - #0/INFO]: <Cool_Beans> but wet[m
+
+[04:22:12] [Async Chat Thread - #0/INFO]: <FartingBananaman> yee[m
+
+[04:22:19] [Async Chat Thread - #0/INFO]: <FartingBananaman> dry it in furnace[m
+
+[04:22:25] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[04:22:25] [Async Chat Thread - #0/INFO]: <Cool_Beans> do we need em?[m
+
+[04:22:32] [Async Chat Thread - #0/INFO]: <FartingBananaman> ehhh[m
+
+[04:22:34] [Async Chat Thread - #0/INFO]: <FartingBananaman> no[m
+
+[04:23:11] [Server thread/WARN]: Cool_Beans moved wrongly!
+[04:23:18] [Server thread/WARN]: Cool_Beans moved wrongly!
+[04:23:48] [Async Chat Thread - #1/INFO]: <Cool_Beans> i found op village[m
+
+[04:23:53] [Async Chat Thread - #1/INFO]: <Cool_Beans> they trade coal for emeralds[m
+
+[04:23:57] [Async Chat Thread - #1/INFO]: <Cool_Beans> rotten flesh for emeralds[m
+
+[04:23:58] [Async Chat Thread - #1/INFO]: <FartingBananaman> did you set home[m
+
+[04:24:11] [Async Chat Thread - #1/INFO]: <FartingBananaman> the old village also trades coal fro emeralds[m
+
+[04:24:14] [Async Chat Thread - #1/INFO]: <Cool_Beans> uhh no? but i did save cords[m
+
+[04:24:40] [Server thread/INFO]: FartingBananaman issued server command: /home desertoutpost
+[04:27:46] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[04:27:46] [Server thread/INFO]: Cool_Beans left the game.
+[04:36:16] [Server thread/INFO]: FartingBananaman was shot by Skeleton
+[04:36:22] [Server thread/INFO]: FartingBananaman issued server command: /back
+[04:46:46] [Thread-19/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[04:46:47] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:45716] logged in with entity id 16094 at ([world]716.3270236984443, 12.0, 2374.339029844701)
+[04:47:44] [Server thread/INFO]: ___ issued server command: /home DA
+[04:47:46] [Async Chat Thread - #2/INFO]: <___> hi[m
+
+[04:47:48] [Async Chat Thread - #2/INFO]: <FartingBananaman> hi[m
+
+[04:47:51] [Async Chat Thread - #2/INFO]: <___> wyd[m
+
+[04:47:56] [Async Chat Thread - #2/INFO]: <FartingBananaman> exploring[m
+
+[04:48:02] [Async Chat Thread - #2/INFO]: <___> cool[m
+
+[04:55:59] [Server thread/INFO]: ___ lost connection: Disconnected
+[04:55:59] [Server thread/INFO]: ___ left the game.
+[04:56:22] [Server thread/INFO]: FartingBananaman issued server command: /delhome acaciaoutpost
+[04:56:29] [Server thread/INFO]: FartingBananaman issued server command: /sethome village2
+[04:59:35] [Server thread/INFO]: FartingBananaman lost connection: Disconnected
+[04:59:35] [Server thread/INFO]: FartingBananaman left the game.
+[05:01:06] [Thread-21/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[05:01:06] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:48508] logged in with entity id 24431 at ([world]708.3630297647336, 11.0, 2460.473717872582)
+[05:08:36] [Server thread/INFO]: ___ issued server command: /home DA
+[05:08:41] [Async Chat Thread - #3/INFO]: <___> still exploring?[m
+
+[05:09:58] [Server thread/INFO]: ___ lost connection: Disconnected
+[05:09:58] [Server thread/INFO]: ___ left the game.
+[05:13:56] [Thread-22/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[05:13:56] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:59912] logged in with entity id 28314 at ([world]978.4294252231889, 98.0, 852.629782620555)
+[05:14:11] [Server thread/INFO]: Cool_Beans issued server command: /tp 1152 100 1872
+[05:14:11] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to 1152.5, 100.0, 1872.5]
+[05:14:14] [Server thread/INFO]: Cool_Beans fell from a high place
+[05:14:24] [Server thread/INFO]: Cool_Beans issued server command: /time set day
+[05:14:24] [Server thread/INFO]: [Cool_Beans: Set the time to 1000]
+[05:14:27] [Server thread/INFO]: Cool_Beans issued server command: /back
+[05:15:55] [Thread-23/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[05:15:55] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:58428] logged in with entity id 28813 at ([world]688.9632306671976, 68.0, 2352.799492000697)
+[05:16:03] [Async Chat Thread - #4/INFO]: <___> hi[m
+
+[05:16:05] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[05:16:07] [Async Chat Thread - #4/INFO]: <Cool_Beans> hi[m
+
+[05:16:10] [Async Chat Thread - #4/INFO]: <___> wyd[m
+
+[05:16:11] [Async Chat Thread - #4/INFO]: <Cool_Beans> hi[m
+
+[05:16:14] [Async Chat Thread - #4/INFO]: <Cool_Beans> uhh[m
+
+[05:16:18] [Async Chat Thread - #4/INFO]: <Cool_Beans> sorting stuf[m
+
+[05:16:23] [Async Chat Thread - #4/INFO]: <___> cool[m
+
+[05:16:27] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[05:19:18] [Server thread/INFO]: ___ was blown up by Creeper
+[05:19:22] [Server thread/INFO]: ___ issued server command: /back
+[05:20:09] [Async Chat Thread - #5/INFO]: <Cool_Beans> what r u doing??[m
+
+[05:20:14] [Async Chat Thread - #5/INFO]: <___> can i kill some of ur cows[m
+
+[05:20:19] [Async Chat Thread - #5/INFO]: <Cool_Beans> uhh no?[m
+
+[05:20:29] [Async Chat Thread - #5/INFO]: <___> understandable[m
+
+[05:20:37] [Async Chat Thread - #5/INFO]: <Cool_Beans> lmao ofc[m
+
+[05:20:48] [Async Chat Thread - #5/INFO]: <Cool_Beans> i found another village and i raided so many desert templs[m
+
+[05:20:49] [Async Chat Thread - #5/INFO]: <Cool_Beans> today[m
+
+[05:20:52] [Async Chat Thread - #5/INFO]: <___> cool[m
+
+[05:20:55] [Async Chat Thread - #5/INFO]: <___> any loot?[m
+
+[05:20:58] [Async Chat Thread - #5/INFO]: <Cool_Beans> yee[m
+
+[05:21:01] [Async Chat Thread - #5/INFO]: <___> what[m
+
+[05:21:04] [Async Chat Thread - #5/INFO]: <Cool_Beans> and something cooler ill tell u tmrw[m
+
+[05:21:12] [Async Chat Thread - #5/INFO]: <Cool_Beans> i got tnt daimonds iron saddle[m
+
+[05:21:24] [Async Chat Thread - #5/INFO]: <___> what[m
+
+[05:21:25] [Async Chat Thread - #5/INFO]: <___> zamn[m
+
+[05:22:52] [Server thread/WARN]: Cool_Beans moved wrongly!
+[05:23:38] [Async Chat Thread - #6/INFO]: <___> yay[m
+
+[05:23:55] [Async Chat Thread - #6/INFO]: <Cool_Beans> ?[m
+
+[05:24:26] [Server thread/INFO]: ___ blew up
+[05:24:30] [Server thread/INFO]: ___ issued server command: /back
+[05:24:31] [Async Chat Thread - #6/INFO]: <___> wtf[m
+
+[05:24:36] [Async Chat Thread - #6/INFO]: <___> i moved[m
+
+[05:24:37] [Async Chat Thread - #6/INFO]: <Cool_Beans> u good?[m
+
+[05:24:57] [Async Chat Thread - #6/INFO]: <___> now im mad[m
+
+[05:25:03] [Async Chat Thread - #6/INFO]: <Cool_Beans> in desert templ?[m
+
+[05:25:07] [Async Chat Thread - #6/INFO]: <___> yup[m
+
+[05:25:10] [Async Chat Thread - #6/INFO]: <Cool_Beans> bruhh[m
+
+[05:25:14] [Async Chat Thread - #6/INFO]: <Cool_Beans> did u get loot at least[m
+
+[05:25:20] [Async Chat Thread - #6/INFO]: <Cool_Beans> no tnt tho[m
+
+[05:25:22] [Async Chat Thread - #6/INFO]: <Cool_Beans> TT[m
+
+[05:25:30] [Async Chat Thread - #6/INFO]: <___> no[m
+
+[05:25:47] [Async Chat Thread - #6/INFO]: <___> second time this has happened[m
+
+[05:25:51] [Async Chat Thread - #6/INFO]: <Cool_Beans> sad[m
+
+[05:25:54] [Async Chat Thread - #6/INFO]: <___> i should just destro the plate[m
+
+[05:26:12] [Async Chat Thread - #6/INFO]: <Cool_Beans> ok i gtg, imma do more studying[m
+
+[05:26:15] [Async Chat Thread - #6/INFO]: <Cool_Beans> im so fucked tmrw[m
+
+[05:26:17] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[05:26:17] [Server thread/INFO]: Cool_Beans left the game.
+[05:28:29] [Server thread/INFO]: ___ issued server command: /home DA
+[05:29:14] [Server thread/INFO]: ___ lost connection: Disconnected
+[05:29:14] [Server thread/INFO]: ___ left the game.
+[05:32:19] [Thread-25/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[05:32:19] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:54464] logged in with entity id 34284 at ([world]721.3664983842676, 66.0, 2405.7153349678897)
+[05:32:37] [Thread-26/INFO]: UUID of player FartingBananaman is d28573f7-50ff-3cff-8e01-0f7a80c838ab
+[05:32:37] [Server thread/INFO]: FartingBananaman[/[0:0:0:0:0:0:0:1]:51396] logged in with entity id 34387 at ([world]1389.031207697772, 71.0, -1653.2282054160717)
+[05:33:14] [Async Chat Thread - #7/INFO]: <___> hi[m
+
+[05:33:17] [Async Chat Thread - #7/INFO]: <FartingBananaman> hi[m
+
+[05:33:20] [Async Chat Thread - #7/INFO]: <___> wyd[m
+
+[05:33:22] [Server thread/INFO]: FartingBananaman was blown up by Creeper
+[05:33:26] [Async Chat Thread - #7/INFO]: <___> oh[m
+
+[05:33:38] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[05:34:02] [Server thread/INFO]: ___ lost connection: Disconnected
+[05:34:02] [Server thread/INFO]: ___ left the game.
+[05:36:37] [Server thread/INFO]: FartingBananaman issued server command: /home village2
+[05:40:08] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[05:40:15] [Server thread/INFO]: FartingBananaman fell from a high place
+[05:40:23] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[05:40:30] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[05:40:38] [Server thread/INFO]: FartingBananaman fell from a high place
+[05:40:45] [Thread-27/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[05:40:45] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:40376] logged in with entity id 38010 at ([world]981.1300984699712, 98.0, 851.4264993222464)
+[05:40:51] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[05:40:58] [Async Chat Thread - #8/INFO]: <FartingBananaman> i found another village[m
+
+[05:41:03] [Async Chat Thread - #8/INFO]: <Cool_Beans> oo nice[m
+
+[05:41:12] [Async Chat Thread - #8/INFO]: <Cool_Beans> uhh do you want to go find stronghold tmrw[m
+
+[05:41:16] [Async Chat Thread - #8/INFO]: <Cool_Beans> actually[m
+
+[05:41:21] [Async Chat Thread - #8/INFO]: <Cool_Beans> how about friday night?[m
+
+[05:41:28] [Async Chat Thread - #8/INFO]: <Cool_Beans> like after school friday?[m
+
+[05:41:33] [Async Chat Thread - #8/INFO]: <FartingBananaman> i have lots of time tomorrow[m
+
+[05:41:36] [Async Chat Thread - #8/INFO]: <FartingBananaman> i dc[m
+
+[05:41:42] [Async Chat Thread - #8/INFO]: <Cool_Beans> well study for english tmrw[m
+
+[05:41:46] [Async Chat Thread - #8/INFO]: <Cool_Beans> we can do friday[m
+
+[05:41:50] [Async Chat Thread - #8/INFO]: <Cool_Beans> stronghold friday[m
+
+[05:41:54] [Async Chat Thread - #8/INFO]: <FartingBananaman> wait lemme edgenutiy[m
+
+[05:41:59] [Async Chat Thread - #8/INFO]: <Cool_Beans> k[m
+
+[05:42:00] [Async Chat Thread - #8/INFO]: <Cool_Beans> also[m
+
+[05:42:09] [Async Chat Thread - #8/INFO]: <Cool_Beans> theres A LOT of strongholds in this version[m
+
+[05:42:44] [Async Chat Thread - #8/INFO]: <FartingBananaman> i also found a mineshaft/ravine[m
+
+[05:42:48] [Async Chat Thread - #8/INFO]: <Cool_Beans> O[m
+
+[05:42:49] [Async Chat Thread - #8/INFO]: <FartingBananaman> its pretty far tho[m
+
+[05:43:02] [Async Chat Thread - #8/INFO]: <Cool_Beans> oof[m
+
+[05:43:03] [Server thread/INFO]: FartingBananaman issued server command: /home village2
+[05:43:29] [Async Chat Thread - #8/INFO]: <FartingBananaman> im at the other village if u wanna come and see[m
+
+[05:45:12] [Async Chat Thread - #9/INFO]: <Cool_Beans> sure[m
+
+[05:45:15] [Server thread/INFO]: Cool_Beans issued server command: /tpa FartingBananaman
+[05:45:21] [Async Chat Thread - #9/INFO]: <FartingBananaman> oops i left\[m
+
+[05:45:26] [Async Chat Thread - #9/INFO]: <Cool_Beans> skull[m
+
+[05:45:28] [Async Chat Thread - #9/INFO]: <Cool_Beans> its fine[m
+
+[05:45:31] [Async Chat Thread - #9/INFO]: <Cool_Beans> imma study more[m
+
+[05:45:33] [Async Chat Thread - #9/INFO]: <Cool_Beans> bye[m
+
+[05:45:36] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[05:45:36] [Server thread/INFO]: Cool_Beans left the game.
+[05:54:57] [Server thread/INFO]: FartingBananaman was shot by Skeleton
+[05:55:01] [Server thread/INFO]: FartingBananaman issued server command: /back
+[06:00:28] [Thread-29/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[06:00:28] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:38620] logged in with entity id 54931 at ([world]993.7859462850226, 99.5, 850.5468086767698)
+[06:00:50] [Server thread/INFO]: Cool_Beans issued server command: /tp Cool_Beans -240 100 3152
+[06:00:50] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -239.5, 100.0, 3152.5]
+[06:00:53] [Server thread/INFO]: Cool_Beans fell from a high place
+[06:01:04] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[06:01:04] [Server thread/INFO]: Cool_Beans left the game.
+[06:01:16] [Thread-30/INFO]: UUID of player Cool_Beans is 664a2dc0-8083-3f70-ad82-a094faa28ef3
+[06:01:16] [Server thread/INFO]: Cool_Beans[/[0:0:0:0:0:0:0:1]:35236] logged in with entity id 55642 at ([world]-239.5, 66.0, 3152.5)
+[06:01:29] [Server thread/INFO]: Cool_Beans issued server command: /back
+[06:01:45] [Server thread/INFO]: Cool_Beans issued server command: /tp Cool_Beans -240 65 3152
+[06:01:45] [Server thread/INFO]: [Cool_Beans: Teleported Cool_Beans to -239.5, 65.0, 3152.5]
+[06:01:49] [Server thread/INFO]: FartingBananaman was shot by Skeleton
+[06:01:53] [Server thread/INFO]: FartingBananaman issued server command: /back
+[06:02:11] [Async Chat Thread - #10/INFO]: <Cool_Beans> i found a templ[m
+
+[06:02:30] [Async Chat Thread - #10/INFO]: <FartingBananaman> nice[m
+
+[06:04:26] [Async Chat Thread - #11/INFO]: <Cool_Beans> i got some sticky pistons[m
+
+[06:04:35] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[06:04:40] [Server thread/INFO]: Cool_Beans issued server command: /home bean
+[06:04:47] [Async Chat Thread - #11/INFO]: <FartingBananaman> the 2 chests inside have anything good?[m
+
+[06:04:52] [Async Chat Thread - #11/INFO]: <Cool_Beans> gold[m
+
+[06:04:55] [Async Chat Thread - #11/INFO]: <Cool_Beans> just gold[m
+
+[06:05:04] [Async Chat Thread - #11/INFO]: <Cool_Beans> alr imma go to sleep[m
+
+[06:05:15] [Async Chat Thread - #11/INFO]: <Cool_Beans> server might die[m
+
+[06:05:19] [Async Chat Thread - #11/INFO]: <FartingBananaman> ok[m
+
+[06:05:21] [Async Chat Thread - #11/INFO]: <Cool_Beans> like stop[m
+
+[06:05:24] [Async Chat Thread - #11/INFO]: <Cool_Beans> night![m
+
+[06:05:33] [Async Chat Thread - #11/INFO]: <FartingBananaman> good night[m
+
+[06:05:36] [Server thread/INFO]: Cool_Beans lost connection: Disconnected
+[06:05:36] [Server thread/INFO]: Cool_Beans left the game.
+[06:15:48] [Server thread/INFO]: FartingBananaman tried to swim in lava
+[06:15:52] [Server thread/INFO]: FartingBananaman issued server command: /back
+[06:16:11] [Server thread/INFO]: FartingBananaman burned to death
+[06:16:18] [Server thread/INFO]: FartingBananaman issued server command: /home base
+[06:21:45] [Server thread/INFO]: FartingBananaman lost connection: Disconnected
+[06:21:45] [Server thread/INFO]: FartingBananaman left the game.
